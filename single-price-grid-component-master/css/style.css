@@ -2,9 +2,29 @@
 *::before,
 *::after {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: inherit; }
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 1rem;
   font-family: "Karla", sans-serif; }
+
+.heading--1 {
+  color: #2ab2af; }
+
+.heading--2-yellow {
+  color: #c0df34; }
+
+.heading--2-light-gray {
+  color: #e5eff5; }
+
+.paragraph--grayish-blue {
+  color: #98a6bd; }
+
+.paragraph--light-gray {
+  color: #e5eff5; }
+
+.btn {
+  background-color: #c0df34;
+  color: #e5eff5; }

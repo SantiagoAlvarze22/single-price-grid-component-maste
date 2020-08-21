@@ -1,0 +1,28 @@
+.heading--1{
+    color: $color-primary-cyan;
+}
+
+.heading--2{
+    &-yellow{
+        color: $color-primary-bright-yellow;
+    }
+
+    &-light-gray{
+        color:$color-neural-light-gray;
+    }
+}
+
+.paragraph{
+    &--grayish-blue{
+        color: $color-neural-grayish-blue;
+    }
+
+    &--light-gray{
+        color:$color-neural-light-gray;
+    }
+}
+
+.btn{
+    background-color: $color-primary-bright-yellow;
+    color:$color-neural-light-gray; 
+}
