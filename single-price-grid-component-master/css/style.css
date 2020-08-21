@@ -18,9 +18,19 @@ html {
 
 .container {
   width: 50vw;
+  height: auto;
   border: 1px solid black;
   justify-self: center;
   align-self: center; }
+  @media only screen and (max-width: 62.5em) {
+    .container {
+      width: 60vw; } }
+  @media only screen and (max-width: 31.25em) {
+    .container {
+      width: 70vw; } }
+  @media only screen and (max-width: 23.4375em) {
+    .container {
+      width: 90vw; } }
 
 .header {
   background-color: #fff;
@@ -28,7 +38,11 @@ html {
 
 .bottom {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  width: auto; }
+  @media only screen and (max-width: 62.5em) {
+    .bottom {
+      grid-template-columns: 1fr; } }
 
 .subscription {
   background-color: #2ab2af;
@@ -65,7 +79,8 @@ html {
   font-weight: 700;
   cursor: pointer;
   transition: all .3s;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
   .btn:hover {
     transform: scale(1.2);
     color: white; }

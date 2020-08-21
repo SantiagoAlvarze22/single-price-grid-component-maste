@@ -22,7 +22,20 @@ html{
 
 .container{
     width: 50vw;
+    height: auto;
     border: 1px solid black;
     justify-self:center;
     align-self:center;
+
+    @media only screen and (max-width:$bp-tablet ){
+        width: 60vw;
+    }
+
+    @media only screen and (max-width:$bp-small-tablet ){
+        width: 70vw;
+    }
+
+    @media only screen and (max-width:$bp-mobile ){
+        width: 90vw;
+    }
 }

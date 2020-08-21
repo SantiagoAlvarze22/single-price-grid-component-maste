@@ -1,4 +1,10 @@
 .bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: auto;
+
+    @media only screen and (max-width:$bp-tablet ){
+
+        grid-template-columns: 1fr;
+    }
 }
