@@ -22,7 +22,30 @@
     }
 }
 
+.price{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .btn{
     background-color: $color-primary-bright-yellow;
     color:$color-neural-light-gray; 
+    width: 100%;
+    
+    height: 3rem;
+    outline:none;
+    border: none;
+    border-radius: .2rem;
+    color:rgba($color-white, .9);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 3rem;
+
+    &:hover{
+        transform: scale(1.2);
+        color:rgba($color-white, 1);
+    }
 }
+
+

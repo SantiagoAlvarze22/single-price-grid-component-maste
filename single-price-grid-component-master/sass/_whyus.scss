@@ -1,0 +1,12 @@
+.why-us{
+    background-color:rgba($color-primary-cyan, .7);
+    padding: 2.5rem;
+
+    &--list{
+        list-style-type: none;
+        color: rgba($color-white, .8);
+        &-item{
+
+        }
+    }
+}

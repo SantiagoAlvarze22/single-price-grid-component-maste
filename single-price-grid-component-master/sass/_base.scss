@@ -7,8 +7,22 @@
     box-sizing: inherit;
 }
 
+
 html{
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 1rem; //16px
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
     font-family: $font-primary;
+    line-height: 1.8;
+}
+
+.container{
+    width: 50vw;
+    border: 1px solid black;
+    justify-self:center;
+    align-self:center;
 }
